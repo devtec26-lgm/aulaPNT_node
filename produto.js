@@ -13,12 +13,10 @@ const Produto = database.define('produto', {
         allowNull: false
     },
     preco: {
-        type: Sequelize.STRING,
-        allowNull: false
+        type: Sequelize.DOUBLE,
     },
     descricao: {
         type: Sequelize.TEXT,
-        allowNull: false
     }
 });
 
